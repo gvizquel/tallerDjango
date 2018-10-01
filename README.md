@@ -924,7 +924,7 @@ Licencia:
 CC BY- NC-SA: Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)
 Puede encontrarse la licencia completa en: <https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es_ES>
 >
->![CC BY- NC-SA](imagenes/by-nc-sa.svg)
+>![CC BY- NC-SA](by-nc-sa.svg)
 
 Usted es libre de:
 
@@ -934,8 +934,8 @@ Adaptar — remezclar, transformar y crear a partir del material
 
 El licenciador no puede revocar estas libertades mientras cumpla con los términos de la licencia. Bajo las condiciones siguientes:
 
-![Reconocimiento](imagenes/by.svg) Reconocimiento — Debe reconocer adecuadamente la autoría, proporcionar un enlace a la licencia e indicar si se han realizado cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que tiene el apoyo del licenciador o lo recibe por el uso que hace.
+![Reconocimiento](by.svg) Reconocimiento — Debe reconocer adecuadamente la autoría, proporcionar un enlace a la licencia e indicar si se han realizado cambios. Puede hacerlo de cualquier manera razonable, pero no de una manera que sugiera que tiene el apoyo del licenciador o lo recibe por el uso que hace.
 
-![NoComercial](imagenes/nc.svg) NoComercial — No puede utilizar el material para una finalidad comercial.
+![NoComercial](nc.svg) NoComercial — No puede utilizar el material para una finalidad comercial.
 
-![CompartirIgual](imagenes/cc.svg) CompartirIgual — Si remezcla, transforma o crea a partir del material, deberá difundir sus contribuciones bajo la misma licencia que el original.
+![CompartirIgual](cc.svg) CompartirIgual — Si remezcla, transforma o crea a partir del material, deberá difundir sus contribuciones bajo la misma licencia que el original.
