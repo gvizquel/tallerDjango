@@ -73,7 +73,7 @@ Con los siguientes comandos puedes hacer y restaurar respaldos comprimidos dePos
 
 ```console
 pg_dump -F c -O -x -U usuario -W -h localhost -Z 6 -f /ruta/archivo.sqlc -d BaseDeDatos -n esquema -t tabla
-pg_restore -F c -U usuario -W -h localhost /ruta/archivo.sqlc -d BaseDeDatos -n esquema -t tabla
+pg_restore --clean -F c -U usuario -W -h localhost /ruta/archivo.sqlc -d BaseDeDatos -n esquema -t tabla
 ```
 
 ### 2.2- Instalar python3 python3-pip python3-virtualenv ###
