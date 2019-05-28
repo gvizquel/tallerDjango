@@ -649,8 +649,6 @@ Como estamos extendiendo otra plantilla (base.html), tambien debemos crear esa p
 
 ## 12- Django: despliegue ##
 
-El despliegue o como dirían en el imperio mesmo "the deployment" con nginx es el camino empedrao', largo tedioso y, por ser menos común, con el que solemos tener menos experiencia y por tanto más dificultades. A pesar de esto lo explicamos primero porque según los entendidos es el que mejor rendimiento tiene a la hora de servir aplicaciones python.
-
 En caso de que vayamos a mover la aplicación a un servidor de producción, es importante llevarnos los requisitos del sistema que no es mas que una lista de todo el software adicional que hemos utilizado para desarrollar nuestra aplicación. Para ello debemos ejecutar el siguiente comando:
 
 ```console
@@ -857,7 +855,7 @@ application = get_wsgi_application()
 
 ```apacheconf
 <VirtualHost *:80>
-        WSGIDaemonProcess proyectoPrueba.org python-home=/var/www/envPrueba python-path=/www/envOpsu/myapp
+        WSGIDaemonProcess proyectoPrueba.org python-home=/var/www/envPrueba python-path=/www/envPrueba/proyectoPrueba
         WSGIProcessGroup  proyectoPrueba.org
         WSGIScriptAlias / /var/www/envPrueba/proyectoPrueba/proyectoPrueba/wsgi.py
 
